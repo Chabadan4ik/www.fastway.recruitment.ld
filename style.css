@@ -1304,6 +1304,9 @@ h2 {
         max-height: 0;
     }
 
+    .stats{
+        display: none;
+    }
     .accordion_header:after {
         content: "";
         display: block;
@@ -1313,7 +1316,7 @@ h2 {
         border-right: 2px solid #ccc;
         position: absolute;
         top: 40%;
-        left: 175px;
+        left: 190px;
         z-index: 1;
         transform: translateY(-50%) rotate(135deg);
     }
