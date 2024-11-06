@@ -1661,5 +1661,43 @@ h2 {
     }
 }
 
+@media (max-width: 414px) {
+    .stats {
+        display: none;
+    }
+
+    .accordion_header {
+        border-bottom: 1px solid transparent;
+        padding: 15px 65px 15px 65px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .accordion_header::after {
+        content: "";
+        display: block;
+        width: 9px;
+        height: 9px;
+        border-top: 2px solid #ccc;
+        border-right: 2px solid #ccc;
+        position: absolute;
+        top: 40%;
+        left: 160px;
+        z-index: 1;
+        transform: translateY(-50%) rotate(135deg);
+    }
+    
+    
+
+    .wedo_item {
+        margin-top: 1px;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+
+}
+
+
 
 
