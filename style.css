@@ -1140,7 +1140,7 @@ h2 {
         margin-left: 8px;
     }
     .reason p {
-        font-size: 9.5px;
+        font-size: 10px;
         line-height: 1.5;
         color: #fff;
         
@@ -1151,7 +1151,7 @@ h2 {
         grid-template-columns: repeat(2, 0fr);
         gap: 15px;
         flex: 0 0 150px;
-        margin-top: 35px;
+        margin-top: 30px;
         margin-left: 20px;
     }
 
@@ -1173,13 +1173,13 @@ h2 {
 
     .stat_count {
         margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 1;
     }
 
     .stat_text {
-        font-size: 9px;
+        font-size: 13px;
         text-transform: uppercase;
     }
 
@@ -1208,8 +1208,8 @@ h2 {
     }
 
     .images_abt img {
-        width: 135px;
-        height: 135px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
         object-fit: cover;
         aspect-ratio: 1 / 1;
@@ -1279,7 +1279,7 @@ h2 {
     }
 
     .accordion_title {
-        font-size: 8px;
+        font-size: 10px;
         color: #333;
         text-transform: uppercase;
     }
@@ -1296,7 +1296,7 @@ h2 {
     .accordion_content {
         padding: 15px 20px;
         display: none;
-        font-size: 8px;
+        font-size: 10px;
         color: #999;
         font-weight: 300;
         overflow: hidden;
@@ -1325,8 +1325,8 @@ h2 {
     .client_photo {
         border-radius: 50%;
         object-fit: cover;
-        width: 85px;
-        height: 85px;
+        width: 105px;
+        height: 105px;
         position: absolute;
         top: -15px;
         left: 0px;
@@ -1336,7 +1336,7 @@ h2 {
 
 
     .clients_name {
-        font-size: 9px;
+        font-size: 10px;
         color: #333;
         text-transform: uppercase;
         margin-left: -35px;
@@ -1344,20 +1344,20 @@ h2 {
 
     .clients_prof {
         color: #333;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 300;
         margin-left: -35px;
     }
 
     .clients_text {
-        font-size: 8px;
+        font-size: 10px;
         color: #999;
         margin-left: -35px;
     }
 
     .clients_item {
         width: 50%;
-        padding: 90px 5px 5px 75px;
+        padding: 100px 5px 5px 75px;
         position: relative;
         margin-bottom: 60px;
     }
